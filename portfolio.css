@@ -1,0 +1,686 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+.whole{
+   width: 100vw; height: 1000vh;
+}
+.box{
+   width: 1280px;
+   height: 700px;
+   background-color: #080808 ;
+   position: relative;
+   margin: 10px auto;
+}
+.tab{
+   width: 1110px;
+   height: 70px;
+   margin: 0 auto;
+   background-color: #1B1B1B;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom-left-radius: 8px ;
+   border-bottom-right-radius: 8px;
+}
+.info{
+   color: #9C9C9C ;
+   font-family: IBM Plex Mono monospace;
+   display: flex;
+   gap: 70px;
+   font-size: 20px;
+}
+.icon{
+   display: flex;
+   color: #FFFFFF;
+   gap: 25px;
+   opacity: 30%;
+}
+.name{
+   font-family: Raleway;
+   width: 426px;
+   height: 72px;
+   color:#FFFFFF ;
+   font-weight: 800;
+   font-size: 44px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 185px;
+}
+.intro{
+   width: 492px;
+   height: 72px;
+   color: #9C9C9C;
+   font-family: IBM Plex Mono monospace;
+   font-size: 14px;
+   padding-left: 185px;
+   line-height: 24px;
+}
+.btn{
+  font-family: IBM Plex Mono monospace;  
+  font-weight: 700;
+  font-size:16px;  
+  color: #FFFFFF;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: #3F8E00;
+  border: 1px solid #62BA1B; border-radius: 5px;
+  margin-left: 184px;
+  cursor: pointer;
+}
+.circle{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   background-color:  #1B1B1B;
+   position: absolute;
+   display: flex;
+   /* Instead of right: 0, let's use left and offset a little to the right */
+   left: 50%;  /* start at the center */
+    margin-left: 10%;  /* shift a little bit to the right */ 
+    /* right: 0px;Align to the right edge of the parent container */
+    top: calc(50% - 200px); /* 125px = half of height (250px / 2) keeps it vertically centered*/
+ }
+ .img1{
+   border-radius: 50%;
+ }
+ .work{
+   width: 93px;
+   height: 18px;
+   font-family: IBM Plex Mono, monospace;
+   font-size: 14px;
+   color: #FFFFFF;
+   margin-left: 184px;
+   gap: 10px;
+ }
+ .bottom{
+   width: 920px;
+   height: 60px;
+   color: #FFFFFF;
+   display: flex;
+   gap: 30px;
+   margin-left: 230px;
+ }
+ .click{
+   width: 160px;
+   height: 35px;
+   border-radius: 1px solid;
+   margin-left: -20px;
+ }
+ .logo{
+   width: 25px;
+   height: 23px;
+   opacity: 30%;
+ }
+ .container{
+   width: 1280px;
+   height: 1400px;
+   background-color: white;
+   margin: 10px auto;
+ }
+ .case{
+   font-family: Raleway;
+   color: #080808;
+   font-size: 34px; font-weight: 800;
+   margin: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 450px;
+ }
+ .intro2{
+   width: 570px;
+   height: 72px;
+   color: #9C9C9C;
+   font-family: IBM Plex Mono, monospace;
+   font-size: 14px;
+   gap: 10px;
+   padding-left: 350px;
+   line-height: 24px;
+ }
+ .tag{
+   width: 50px; height: 20px; display: flex;
+   margin-left: 190px;  padding-top: -70px;
+   padding-bottom: -70px;
+   font-family: IBM Plex Mono, monospace;
+   font-weight: 700; font-size: 12px; color:#FFA217;
+   background-color: #fff6e9; border-radius: 5px solid;
+
+  }
+ .work{
+   width: 192px; height: 28px; padding-top: -60px;
+   font-family: Raleway;  font-size: 24px; font-weight: 800;
+   color:#080808;
+ }
+ .intro3{
+  height: 96px; width: 421px;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400; font-size: 14px;
+  color:#9C9C9C ; gap: 10px;
+  margin-left: 185px; padding-top: 15px;
+  line-height: 24px;
+ }
+ .img2{
+  width: 445px;
+  height: 320px;
+  margin-left: 447px;
+  margin-top: -80px;
+ }
+ .btn2{
+  height: 55px; width: 250px;
+  font-family: IBM Plex Mono monospace;  
+  font-weight: 800;
+  font-size:20px;  
+  color: #FFFFFF;
+  background-color:#FFA217;
+  border: 1px solid ; border-radius: 5px;
+  cursor: pointer;
+  margin-left: 185px; margin-top: 45px;
+ }
+ .work1{
+  width: 192px; height: 28px; padding-top: -60px;
+  font-family: Raleway;  font-size: 24px; font-weight: 800;
+  color:#080808;
+  margin-left: 185px; padding-right: 200px;
+  margin-left: 700px;
+  margin-top: -300px;
+ }
+ .img3{
+   width: 445px;
+    height: 320px;
+   margin-left: 185px; margin-top: -40px;
+ }
+ .intro4{
+      width: 421px;
+      height: 96px;
+      color: #9C9C9C;
+      font-family: IBM Plex Mono, monospace;
+      font-size: 14px;
+      gap: 10px;
+      padding-left: 525px;
+      line-height: 24px;
+      margin-left: 180px; margin-top: 25px;
+ }
+ .tag1{
+      width: 30px; height: 15px; display: flex;
+      margin-left: 700px; padding-right: 10px; margin-top: 100px;
+      margin-bottom: 10px;
+      font-family: IBM Plex Mono, monospace;
+      font-weight: 700; font-size: 12px; color:#000AFF;
+      background-color: #D0E6FF; border-radius: 5px solid;
+ }
+ .btn3{
+      height: 55px; width: 250px;
+      font-family: IBM Plex Mono monospace;  
+      font-weight: 800;
+      font-size:20px;  
+      color: #FFFFFF;
+      background-color:#000AFF;
+      border: 1px solid ; border-radius: 5px;
+      cursor: pointer;
+      margin-left:700px; margin-top: 50px;
+ }
+ .tag2{
+  width: 44px; height: 15px; display: flex;
+  margin-left: 185px; margin-top: 150px;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 700; font-size: 12px; color:#2AB090;
+  background-color: #E0FFF8; border-radius: 5px solid;
+ }
+ .work2{
+  width: 192px; height: 28px;  
+  font-size: 24px; font-weight: 800; margin-top: -25px;
+  color:#080808; margin-left: 185px; padding-right: 200px;    
+  font-family: Raleway;  font-size: 24px;
+ }
+ .img4{
+  width: 445px; height: 300px; 
+  padding-left: 645px; margin-top: -60px;
+ }
+ .intro5{
+  width: 421px; height: 96px;
+  color: #9C9C9C;
+  font-family: IBM Plex Mono, monospace;
+  font-size: 14px; 
+  line-height: 24px;
+  margin-left: 180px; margin-top: -225px;
+ }
+ .btn4{
+  height: 55px; width: 250px;
+  font-family: IBM Plex Mono monospace;  
+  font-weight: 800;
+  font-size:20px;  
+  color: #FFFFFF;
+  background-color:#2AB090;
+  border: 1px solid ; border-radius: 5px;
+  cursor: pointer;
+  margin-left: 180px; margin-top: 40px;
+ }
+ .Test{
+  width: 1280px;
+  height: 780px;
+  background-color: #080808 ;
+  position: relative;
+  margin: 10px auto;
+ }
+ .testi{
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 20px;
+ }
+ .intro6{
+  width: 500px;
+  height: 48px;
+  color: #9C9C9C;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  gap: 10px;
+  margin-left: 400px;
+  line-height: 24px;
+ }
+ .test1{
+  width: 445px;
+  height: 212px;
+  border: solid 1px #9C9C9C;
+  position: relative;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 20px;
+ }
+ .quote{
+   width: 410px;
+   height: 96px;
+   font-family: IBM Plex Mono, monospace;
+   font-weight: 400;
+   margin-top: -60px;
+   font-size: 14px;
+   color: #9C9C9C;
+   line-height: 24px;
+ }
+ .quotation{
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   margin-top: -235px;
+   margin-left: -400px;
+   font-family: Raleway;
+   font-weight: 500;
+   font-size: 100px;
+   line-height: 100%;
+   letter-spacing: 1%;
+   color:#FFFFFF ;
+ }
+.name1{
+   margin-left: 245px;
+   margin-top:-70px;
+   gap: 10px;
+   color: #FFFFFF;
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 100%;
+ }
+.img5{
+   border-radius: 50%;
+   width: 55px;
+   height: 55px;
+   position: absolute;
+   margin-left: 85px;
+   margin-top: -45px;
+   }
+ .quote1{
+   width: 400px;
+   height: 80px;
+   font-family: IBM Plex Mono, monospace;
+   font-weight: 400;
+   margin-top: -60px;
+   font-size: 15px;
+   color: #9C9C9C;
+   line-height: 24px;
+ }
+  .test2{
+   width: 445px;
+   height: 212px;
+   border: solid 1px #9C9C9C;
+   position: relative;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 700px;
+   margin-top: -177px;
+ }
+ .img6{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -45px;
+ }
+ .name2{
+    margin-left: 790px;
+    margin-top:-70px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+ }
+  .test3{
+   width: 445px;
+   height: 212px;
+   border: solid 1px #9C9C9C;
+   position: relative;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 150px;
+   margin-top: 120px;
+ }
+ .quote2{
+   width: 410px;
+   height: 96px;
+   font-family: IBM Plex Mono, monospace;
+   font-weight: 400;
+   margin-top: -60px;
+   font-size: 14px;
+   color: #9C9C9C;
+   line-height: 24px;
+ }
+.img7{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: -45px;
+  }
+.name3{
+   margin-left: 245px;
+   margin-top:-70px;
+   gap: 10px;
+   color: #FFFFFF;
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 100%;
+}
+.test4{
+   width: 445px;
+   height: 212px;
+   border: solid 1px #9C9C9C;
+   position: relative;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 700px;
+   margin-top: -177px;
+ }
+  .quote3{
+   width: 400px;
+   height: 80px;
+   font-family: IBM Plex Mono, monospace;
+   font-weight: 400;
+   margin-top: -60px;
+   font-size: 15px;
+   color: #9C9C9C;
+   line-height: 24px;
+ }
+  .img8{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -45px;
+ }
+ .name4{
+    margin-left: 790px;
+    margin-top:-70px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+ }
+ .Recent{
+  width: 1280px;
+  height: 676px;
+  position: relative;
+  margin: 10px auto;
+ }
+ .recentW{
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #080808;
+  padding-top: 70px;
+  padding-bottom: 20px;
+ }
+.r1{
+   width: 570px;
+   height: 72px;
+   color: #9C9C9C;
+   font-family: IBM Plex Mono, monospace;
+   font-size: 14px;
+   gap: 10px;
+   padding-left: 350px;
+   line-height: 24px;
+}
+.img9{
+  width: 445px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 55px;
+}
+.workname{
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #080808;
+  margin-top: 50px;  margin-left: 107px;
+}
+ .r2{
+  width: 421px;
+  height: 48px;
+  margin-top: 20px;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: #9C9C9C;
+  margin-left: 107px;
+ }
+ .btn5{
+  height: 55px; width: 250px;
+  font-family: IBM Plex Mono monospace;  
+  font-weight: 800;
+  font-size:20px;  
+  color: #FFFFFF;
+  background-color:#3F8E00;
+  border: 1px solid ; border-radius: 5px;
+  cursor: pointer;
+  margin-left: 105px;; margin-top: 25px;
+ }
+ .img10{
+    width: 445px;
+    height: 300px;
+    margin-top: -249px;
+    margin-left: 350px;
+  }
+  .workname1{
+  width: 192px;
+  height: 28px;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #080808;
+  margin-top: -230px;  margin-left: 698px;
+  }
+  .r3{
+  width: 350px;
+  height: 48px; margin-top: 20px;
+  color: #9C9C9C;
+  font-family: IBM Plex Mono, monospace;
+  font-size: 14px;
+  gap: 10px;
+  padding-left: 698px;
+  line-height: 24px;
+  }
+  .btn6{
+  height: 55px; width: 250px;
+  font-family: IBM Plex Mono monospace;  
+  font-weight: 800;
+  font-size:20px;  
+  color: #FFFFFF;
+  background-color:#3F8E00;
+  border: 1px solid ; border-radius: 5px;
+  cursor: pointer;
+  margin-left: 699px;; margin-top: 25px;
+ }
+ .Get{
+  width: 1280px;
+  height: 750px;
+  background-color: #080808 ;
+  position: relative;
+  margin: 10px auto; margin-top: 100px
+ }
+ .getin{
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 20px;
+ }
+ .intro7{
+  width: 500px;
+  height: 48px;
+  color: #9C9C9C;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  gap: 10px;
+  margin-left: 430px; 
+  line-height: 24px;
+ }
+ .Email{
+  font-family: IBM Plex Mono, monospace;;
+  font-weight: 400; margin-top: 30px;
+  margin-left: 430px;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+ }
+ .email{
+  width: 350px;
+  height: 40px; margin-top: 5px;
+  color: #1B1B1B;
+  border: 1px solid #9C9C9C;
+  border-radius: 5px;
+  margin-left: 430px; 
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  font-family: IBM Plex Mono, monospace;
+  font-size: 16px;
+ }
+ .Mobile{
+  font-family: IBM Plex Mono, monospace;;
+  font-weight: 400; margin-top: 20px;
+  margin-left: 430px;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+ }
+ .mobile{
+  width: 350px;
+  height: 40px; margin-top: 5px;
+  color: #1B1B1B;
+  border: 1px solid #9C9C9C;
+  border-radius: 5px;
+  margin-left: 430px;  
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  font-family: IBM Plex Mono, monospace;
+  font-size: 16px;
+ }
+ .Msg{
+ font-family: IBM Plex Mono, monospace;;
+  font-weight: 400; margin-top: 20px;
+  margin-left: 430px;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+ }
+ .msg{
+  width: 350px;
+  height: 120px; margin-top: 5px;
+  color: #1B1B1B;
+  border: 1px solid #9C9C9C;
+  border-radius: 5px;
+  margin-left: 430px; 
+  padding-left: 20px;
+  background-color: #FFFFFF;
+  font-family: IBM Plex Mono, monospace;
+  font-size: 16px;
+ }
+ .btn7{
+  height: 70px; width: 380px;
+  font-family: IBM Plex Mono, monospace;  
+  font-weight: 800;
+  font-size:20px;  
+  color: #FFFFFF;
+  background-color:#3F8E00;
+  border: 1px solid black ; border-radius: 5px;
+  cursor: pointer;
+  margin-left: 430px; margin-top: 30px;
+ }
+ .end{
+  width: 1280px;
+  height: 70px;
+  font-family: IBM Plex Mono, monospace; 
+  background-color: #1B1B1B;
+  color: #9C9C9C;
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  margin: 10px auto; margin-top: 90px;
+  font-weight: 400;
+  font-size: 15px;
+ }
+
+
+ 
