@@ -78,11 +78,9 @@
    background-color:  #1B1B1B;
    position: absolute;
    display: flex;
-   /* Instead of right: 0, let's use left and offset a little to the right */
-   left: 50%;  /* start at the center */
-    margin-left: 10%;  /* shift a little bit to the right */ 
-    /* right: 0px;Align to the right edge of the parent container */
-    top: calc(50% - 200px); /* 125px = half of height (250px / 2) keeps it vertically centered*/
+   left: 50%; 
+    margin-left: 10%;  
+    top: calc(50% - 200px);
  }
  .img1{
    border-radius: 50%;
@@ -570,7 +568,7 @@
   height: 750px;
   background-color: #080808 ;
   position: relative;
-  margin: 10px auto; margin-top: 100px
+  margin: 10px auto; margin-top: 130px
  }
  .getin{
   font-family: Raleway;
